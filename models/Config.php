@@ -5,6 +5,7 @@ namespace wolfguard\config\models;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
+use yii\log\Logger;
 
 /**
  * This is the model class for table "{{%config}}".
@@ -51,6 +52,8 @@ class Config extends ActiveRecord
             'code' => \Yii::t('config', 'Code'),
             'value' => \Yii::t('config', 'Value'),
             'system' => \Yii::t('config', 'System'),
+            'created_at' => \Yii::t('config', 'Created at'),
+            'updated_at' => \Yii::t('config', 'Updated at'),
         ];
     }
 

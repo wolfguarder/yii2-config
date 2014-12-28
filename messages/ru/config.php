@@ -17,7 +17,8 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'No configuration code defined.' => 'Не задан код конфигурационного значения',
+    'Created at' => 'Время создания',
+    'Updated at' => 'Последнее обновление',
     'Be careful in Code field. Pay attention to field hint.' => 'Будьте внимательны при заполнении поля Код. Обратите внимание на подсказку.',
     'Can\'t delete system configuration value' => 'Нельзя удалить системное значение',
     'Code' => 'Код',
@@ -26,11 +27,12 @@ return [
     'Config has been updated' => 'Конфигурационное значение было обновлено',
     'Configs' => 'Конфигурационные значения',
     'Create config' => 'Создать значение',
-    'Created at {0, date, MMMM dd, YYYY HH:mm}' => 'Время создания: {0, date, MMMM dd, YYYY HH:mm}',
+    'Created at {0, date, MMMM dd, YYYY HH:mm}' => 'Время создания: {0, date, dd MMMM YYYY, HH:mm}',
     'Information' => 'Информация',
     'Manage configs' => 'Управление конфигурацией',
     'Name' => 'Название',
     'No' => 'Нет',
+    'No configuration code defined.' => 'Не задан код конфигурационного значения',
     'Only latin characters, numbers and symbols (.-_) allowed. Spaces not allowed.' => 'Разрешены только латинские буквы, числа и символы (.-_). Пробелы запрещены.',
     'Save' => 'Сохранить',
     'System' => 'Системное',
